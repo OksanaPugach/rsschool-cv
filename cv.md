@@ -1,9 +1,10 @@
 # Oksana Puhach
-##  **Job title:** Campaign Analyst
-## **Email:** oksana.puhach.it@gmail.com
-## **Phone:**(+48) 665-550-720
-## **GitHub:** [OksanaPugach](https://github.com/OksanaPugach)
-====
+###  **Job title:** Campaign Analyst
+### **Email:** oksana.puhach.it@gmail.com
+### **Phone:**(+48) 665-550-720
+### **GitHub:** [OksanaPugach](https://github.com/OksanaPugach)
+
+-----
 
 I am an experienced project manager, having been in this field for over several years. During the last several years I worked as a Campaign Analyst/Project Manager at Oracle where I was responsible for  managing pre-development, development, qa and delivery process for short-term projects. Currently I'm working as Senior Campaign Analyst in multinational environment.
 
@@ -11,7 +12,8 @@ In a addion to the my work I'm a student of the RSSchool on the "JS/FE Pre-SCHoo
 
 
 ### Skills
-====
+
+----
 
 
  * HTML 
@@ -25,7 +27,9 @@ In a addion to the my work I'm a student of the RSSchool on the "JS/FE Pre-SCHoo
 
 
  ### Code Example
-====
+
+----
+
 ```
 
  function isPrime(num) {
@@ -40,7 +44,9 @@ In a addion to the my work I'm a student of the RSSchool on the "JS/FE Pre-SCHoo
 
 ```
 ### Expirience
-====
+
+----
+
 ##### 2019 – present Senior Campaign Analyst
 *Eloqua Oracle, Warsaw*
 
@@ -57,14 +63,18 @@ In a addion to the my work I'm a student of the RSSchool on the "JS/FE Pre-SCHoo
 *Maxymiser, Dnipro (Ukraine)*
 
 ### Education
-====
+
+----
+
 * **University:** Dneprodzerzhinsk State Technical University 1
 * **Courses:** 2
     + [FreeCodeCamp](https://www.freecodecamp.org/)
     + [HTML Academy](https://htmlacademy.ru/)
 
 ### English
-====
+
+----
+
 **B2** (Comunication with UK and US clients on daily basis. Work in internation team)
 
 
