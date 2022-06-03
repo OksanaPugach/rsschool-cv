@@ -26,7 +26,7 @@ In a addion to the my work I'm a student of the RSSchool on the "JS/FE Pre-SCHoo
  * Project management
 
 
- ### Code Example
+### Code Example
 
 ----
 
