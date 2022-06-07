@@ -1,1 +1,1 @@
-https://OksanaPugach.github.io/rsschool-cv/index.html
+https://OksanaPugach.github.io/rsschool-cv/
