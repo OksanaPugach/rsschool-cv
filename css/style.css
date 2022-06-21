@@ -38,6 +38,10 @@ nav .header{
 	justify-content: flex-end;
 }
 
+ul.contacts{
+list-style: none;
+}
+
 .navigation li{
 	margin:10px 20px;
 }
