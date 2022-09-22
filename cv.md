@@ -6,7 +6,7 @@
 
 -----
 
-I am an experienced project manager, having been in this field for over several years. During the last several years I worked as a Campaign Analyst/Project Manager at Oracle where I was responsible for  managing pre-development, development, qa and delivery process for short-term projects. Currently I'm working as Senior Campaign Analyst in multinational environment.
+I'm an experienced project manager, having been in this field for over several years. During the last several years I worked as a Campaign Analyst/Project Manager at Oracle where I was responsible for  managing pre-development, development, qa and delivery process for short-term projects. Currently I'm working as Senior Campaign Analyst in multinational environment.
 
 In a addion to the my work I'm a student of the RSSchool on the "JS/FE Pre-SCHool 2022Q2" course. Aiming to change position to Junior Front-end developer. 
 
