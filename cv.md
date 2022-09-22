@@ -75,7 +75,7 @@ In a addion to the my work I'm a student of the RSSchool on the "JS/FE Pre-SCHoo
 
 ----
 
-**B2** (Comunication with UK and US clients on daily basis. Work in internation team)
+**B2** (Comunication with UK and US clients on daily basis. Work in internation team )
 
 
 
