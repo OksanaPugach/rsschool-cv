@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Donate</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+ <h1>PetStory Online</h1>
+ <header class="font_button">
+  <nav class="container_nav">
+  <div class="logo"><img src="../../assets/images/logo.svg" alt="logo"></div>
+   <ul class="font_color_white nav_bar">
+    <li><a href="../main/index.html" class="active font_color_white">About</a></li>
+    <li><a href="#" class="font_color_white">Map</a></li>
+    <li><a href="#" class="font_color_white">Zoos</a></li>
+    <li><a href="#" class="font_color_white">Donate</a></li>
+    <li><a href="#" class="font_color_white">Contact us</a></li>
+   </ul>
+  <div class="copyright font_color_white"><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1" class="font_color_white">Designed by &copy;</a></div>
+ </nav>
+ </header>
+ <main class="banner">
+ </main>
+ <section class="pick_and_feed">
+  <section class="pick_intro">
+    <h3 class="font_h3 font_color_white">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+    <p class="font_body font_color_white">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
+   </section>
+    <h3 class="font_h3 font_color_orange">Donation Information</h3>
+  <section class="pick_content_wrapper">
+   <h2 class="font_h2">Pick and feed a friend</h2>
+   <p class="font_subtitle subtitle">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+   <section class="animal_donate">
+    <div class="day_donate">
+     <span class="day_donate_number">4</span>
+     <span class="day_donate_caption font_body">Panda diet for the day.</span>
+    </div>
+    <span class="animal_donate_x_icon"><img src="../../assets/icons/x_icon.svg"></span>
+    <img class="animal_donate_animal_widget" src="../../assets/images/panda_widget1.png">
+   </section>
+   <section class="amount">
+    <span class="font_body">Amount</span>
+    <!-- <form>
+      <div class="range_slider">
+      <input type="range"  min="25" max="5000" id="range_slider_amount" list="tickmarks">
+      <datalist id="tickmarks">
+       <span class="tick"><option value="5000" lable="5000">&#36; 5000</option></span>
+       <span class="tick"><option value="2000" lable="2000">&#36; 2000</option></span>
+       <span class="tick"><option value="1000" lable="1000">&#36; 1000</option></span>
+       <span class="tick"><option value="500" lable="500">&#36; 500</option></span>
+       <span class="tick"><option value="250" lable="250">&#36; 250</option></span>
+       <span class="tick"><option value="100" lable="100">&#36; 100</option></span>
+       <span class="tick"><option value="50" lable="50">&#36; 50</option></span>
+       <span class="tick"><option value="25" lable="25">&#36; 25</option></span>
+       </datalist>
+       </div>
+     </form> -->
+      <form class="form_donate" action="" method="GET">
+       <div id="donate_amount_slider">
+        <input type="radio" name="donate_amount" id="1" value="1" required>
+        <label for="1" data_donate_amount="&#36; 5000"></label>
+        <input type="radio" name="donate_amount" id="2" value="2" required>
+        <label for="2" data_donate_amount="&#36; 2000"></label>
+        <input type="radio" name="donate_amount" id="3" value="3" required>
+        <label for="3" data_donate_amount="&#36; 1000"></label>
+        <input type="radio" name="donate_amount" id="4" value="4" required>
+        <label for="4" data_donate_amount="&#36; 500"></label>
+        <input type="radio" name="donate_amount" id="5" value="5" required>
+        <label for="5" data_donate_amount="&#36; 250"></label>
+        <input type="radio" name="donate_amountt" id="6" value="6" required>
+        <label for="6" data_donate_amount="&#36; 100"></label>
+        <input type="radio" name="donate_amount" id="7" value="7" required>
+        <label for="7" data_donate_amount="&#36; 50"></label>
+        <input type="radio" name="donate_amountt" id="8" value="8" required>
+        <label for="8" data_donate_amount="&#36; 25"></label>
+        <div id="donate-amount-pos"></div>
+       </div>
+       <div class="input_another_amount">
+        <input class="donate_another_amount font_button" type="text" id="9" name="another amount" value="Another amount" maxlength="4">
+        <span class="currency">&#36</span>
+       </div>
+       <div id="donate_frequency">
+        <div>
+        <input type="radio" name="donate_monthly" class="donate_monthly" id="10" value="monthly">
+        <lable for="10">Monthly</lable>
+        </div>
+        <div>
+        <input type="radio" name="donate_monthly" class="donate_monthly" id="11" value="monthly" checked>
+        <lable for="11">Once</lable>
+        </div>
+       </div>
+       <button class="button_radius font_button donate_button" type="submit">FEED A FRIEND NOW</button>
+       <span class="font_body donate_caption">Share with your friends on social networks</span>
+      </form>
+    </section>
+  </section>
+ </section>
+ <footer>
+  <div class="footer_subscribe">
+   <div class="logo"><img src="../../assets/images/logo.svg" alt="logo"></div>
+   <form>
+    <h3 class="font_color_white font_subtitle">Subscribe to our news</h3>
+    <input class="input_subscribe font_button" type="text" id="email" name="email" value="Enter your email">
+    <input class="input_submit font_button" type="submit" value="Submit">
+   </form>
+  </div>
+  <button class="button_square font_button testimonials_button" type="submit">DONATE FOR VOLUNTEERS</button>
+  <div class="footer_ref">
+   <div class="footer_ref_social">
+    <ul class="footer_ref_social_ul">
+     <li class="footer_social facebook">
+      <a href="#" title="facebook" class="social_ellips"><img class="social_img" src="../../assets/icons/facebook.svg"></a>
+      <a href="#" title="facebook" class="social_title font_body font_color_white">Facebook</a>
+    </li>
+    <li class="footer_social twitter">
+     <a href="#" title="twitter" class="social_ellips"><img class="social_img" src="../../assets/icons/twitter.svg"></a>
+     <a href="#" title="twitter" class="social_title font_body font_color_white">Twitter</a>
+    </li>
+    <li class="footer_social instagram">
+     <a href="#" title="instagram" class="social_ellips"><img class="social_img" src="../../assets/icons/instagram.svg"></a>
+     <a href="#" title="instagram" class="social_title font_body font_color_white">Instagram</a>
+    </li>
+    <li class="footer_social youtube">
+     <a href="#" title="youtube" class="social_ellips"><img class="social_img" src="../../assets/icons/youtube.svg"></a>
+     <a href="#" title="youtube" class="social_title font_body font_color_white">YouTube</a>
+    </li>
+    </ul>
+   </div>
+   <div class="footer_ref_nav">
+    <ul class="font_color_white footer_ref_nav_bar">
+     <li><a href="../main/index.html" class="active font_color_white">About</a></li>
+     <li><a href="#" class="font_color_white">Map</a></li>
+     <li><a href="#" class="font_color_white">Zoos</a></li>
+     <li><a href="#" class="font_color_white">Contact us</a></li>
+    </ul>
+   </div>
+   <div class="footer_ref_copyright">
+    <a href="#" class="font_color_white footer_copyright_link">Designed by Alisa Samborskaya</a>
+    <a href="#" class="font_color_white footer_copyright_link">©RSSchool & ©Yem Digital 2021</a>
+   </div>
+  </div>
+ </footer>
+</body>
+</html>
