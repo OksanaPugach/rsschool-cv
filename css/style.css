@@ -164,6 +164,10 @@ select {
 	vertical-align: middle;
 }
 
+body {
+	background-color: #eeeeee;
+}
+
 .font_color_yellow {
 	color: #FFE7B6;
 }
@@ -178,7 +182,7 @@ select {
 
 .wrapper {
 	width: 724px;
-	background-color: #222;
+	background-color: #eeeeee;
 	margin: 0 auto;
 	padding: 30px 60px;
 }
@@ -256,8 +260,21 @@ h3 {
 }
 
 ul li a {
-
 	text-decoration: none;
+	display: inline-block;
+}
+
+ul li a {
+	transition: all .02s linear;
+}
+
+ul li a:active {
+	color: #999;
+	text-decoration: underline;
+}
+
+ul li a:hover {
+	transform: scale(1.1);
 }
 
 .header_about {
@@ -313,6 +330,119 @@ ul li a {
 	width: 105px;
 }
 
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.main_left {
+	width: 452px;
+	background-color: #094b72;
+	padding: 32px;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.main_right {
+	width: 190px;
+	padding: 150px 40px;
+	background-color: #ffffff;
+	position: relative;
+	overflow: hidden;
+	color: #094b72;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main_right ul {
+	list-style: none;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.work_section {
+	padding: 20px 10px;
+}
+
+.skills,
+.Education,
+.Languages {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.work_title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.work_name {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.work_period {
+	font-size: 18px;
+	font-weight: 400;
+	color: #E5E5E5;
+}
+
+.work_duties {
+	padding: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 173%;
+	color: #E5E5E5;
+}
+
+.work_footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.work_company {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.work_country {
+	font-size: 12px;
+	font-weight: 400;
+	color: #E5E5E5;
+}
+
+.image_circle {
+	position: absolute;
+	top: -77px;
+	left: -77px;
+}
+
+.image_dots {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+footer {
+	background: #FFE7B6;
+	color: #094b72;
+	position: relative;
+}
+
 footer ul {
 	list-style-type: none;
 	display: flex;
@@ -323,16 +453,16 @@ footer ul {
 
 footer ul li {
 	margin: 10px 20px;
+	display: flex;
+	align-self: center;
 }
 
-.underline {
-	color: #094b72;
-	text-decoration: underline;
-}
 
-a:active {
-	color: yellow;
-	text-decoration: underline;
+.git_svg {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	height: 24px;
+	width: 23px;
 }
 
 pre code {
